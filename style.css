@@ -161,6 +161,7 @@ main{
 .attribution {
       font-size: 11px;
       text-align: center;
+      margin-top: 10px;
     }
 
     .attribution a {
@@ -197,11 +198,11 @@ main{
     .container-top {
         flex-direction: column;
         text-align: center;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
     }
 
     .col-left{
-        padding: 0;
+        width: 35%;
         margin-bottom: 12px;
     }
 
@@ -215,9 +216,9 @@ main{
         font-size: 38px;
     }
 
-    .right-col{
+    .col-right{
         display: block;
-        width: 100%;
+        width: 33%;
     }
 
     .raitings{
@@ -230,14 +231,19 @@ main{
     }
 
     .container-bottom{
-        margin-top: 260px;
+        margin-top: 320px;
     }
 
     .cards{
-        display: block;
+        display: flex;
+        justify-content: center;
         flex-direction: column;
-        text-align: center;
         margin-bottom: 24px;
+        
+    }
+
+    .second-card{
+        margin-top: 20px;
     }
 
 
